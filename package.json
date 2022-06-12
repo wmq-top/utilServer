@@ -1,0 +1,45 @@
+{
+  "name": "utilserver",
+  "version": "1.0.0",
+  "description": "a store for my speciel compoent Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "tsc index.ts && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmq-top/SpDesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmq-top/SpDesign/issues"
+  },
+  "homepage": "https://github.com/wmq-top/SpDesign#readme",
+  "dependencies": {
+    "gts": "^3.1.0",
+    "fs": "0.0.1-security",
+    "js-base64": "^3.6.0",
+    "jwt-simple": "^0.5.6",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16",
+    "koa-is-json": "^1.0.0",
+    "koa-override": "^3.0.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "typescript": "^4.0.3",
+    "koa-mount": "^4.0.0",
+    "pm2": "^5.2.0"
+  }
+}
